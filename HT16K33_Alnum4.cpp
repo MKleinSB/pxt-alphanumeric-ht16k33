@@ -5,7 +5,7 @@
 using namespace pxt;
 
 namespace HT16K33_Alnum4 {
-	#define HT16K33_ADDRESS 0xE0
+	#define HT16K33_ADDRESS         0x71  // Changed for Grove alphanumeric Display
 	#define HT16K33_ON              0x21  // Commands
 	#define HT16K33_STANDBY         0x20
 	#define HT16K33_DISPLAYON       0x81
